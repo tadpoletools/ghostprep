@@ -67,7 +67,6 @@ function page(current, ...kids) {
       h("span", { class: "side-pill", "aria-hidden": "true" }),
       h("span", { class: "logo", "aria-hidden": "true" }),
       h("div", { class: "exams", role: "group", "aria-label": "Test" }, exam("SAT", true), exam("ACT"), exam("AP")),
-      soon("Home", "home"),
       soon("Study Planner", "planner"),
       link("#/progress", "Analytics", "progress", "progress"),
       link("#/review", "Saved & Mistakes", "review", "marked"),
